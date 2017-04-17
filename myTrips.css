@@ -1,7 +1,7 @@
 
 body {
     background: black;
-    font-family: Times, serif;
+    font-family: Arial, Helvetica, sans-serif;
     width: 100%;  
     padding-left: 280px;
     display: block;
@@ -34,13 +34,14 @@ body {
  }
 
  h1 {
+     padding-top: 10px;
+     margin: 15px;
      font-size: 1.5em;
-     padding: 5px 0px;
  }
 
  .content {
-     padding: 5px 25px 20px 25px;
-     background-color: burlywood;
+     padding: 12px 25px 20px 25px;
+     background-color: darkgrey;
  }
  .prev-next {
     text-align: center;
@@ -57,11 +58,15 @@ body {
     font-size: 1.5em;
 }
 
+.menu-article {
+    margin:  10px auto;
+}
+
  article {
     display: inline-block;
  }
 
-.left {
+.left {    
     float: left;
     padding: 10px;
 }
