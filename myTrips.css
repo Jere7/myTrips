@@ -9,7 +9,7 @@ body {
  }
 
  .font {
-    background: lightskyblue;
+    background: lightsteelblue;
     float: left;
     width: 65%;
     height: 710px;
@@ -28,13 +28,34 @@ body {
     -moz-box-shadow: 6px 9px 53px -10px rgba(31,184,159,1);
     box-shadow: 6px 9px 53px -10px rgba(31,184,159,1);
  }
+  
 .header {
     text-align: center;
  }
 
  h1 {
-     font-size: 2.2em;
+     font-size: 1.5em;
+     padding: 5px 0px;
  }
+
+ .content {
+     padding: 5px 25px 20px 25px;
+     background-color: burlywood;
+ }
+ .prev-next {
+    text-align: center;
+    background-color: ghostwhite;
+    padding: 10px 0px;  
+    margin-top: 10px; 
+ }
+
+ .upcoming {
+    font-size: 1.8em;
+ }
+ 
+.previous {  
+    font-size: 1.5em;
+}
 
  article {
     display: inline-block;
@@ -50,14 +71,10 @@ body {
     margin-left: 40px;
 }
 
- .prev-next {
-    text-align: center;
- }
+footer {
 
- .upcoming {
-    font-size: 1.8em;
- }
- 
-.previous {  
-    font-size: 1.5em;
 }
+ 
+
+
+ 
