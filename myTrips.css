@@ -5,29 +5,22 @@ body {
     width: 100%;  
     padding-left: 280px;
     display: block;
-    margin: 100px auto;
+    
  }
 
  .font {
     background: #fff;
     float: left;
     width: 65%;
-    height: 730px;
+    height: 750px;
     padding-top: 40px;
     padding-left: 20px;
     -webkit-box-shadow: inset 10px 10px 300px -24px rgba(101,49,191,1);
     -moz-box-shadow: inset 10px 10px 300px -24px rgba(101,49,191,1);
-    box-shadow: inset 10px 10px 300px -24px rgba(101,49,191,1);
-    
-    
+    box-shadow: inset 10px 10px 300px -24px rgba(101,49,191,1);    
  }
 
- img {
-     position: relative;
-     left: 20px;
-     top: 660px;    
- }
-
+ 
  .container {
     background:#fff;
     width: 35%;
