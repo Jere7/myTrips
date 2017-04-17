@@ -12,10 +12,10 @@ body {
     background: #fff;
     float: left;
     width: 65%;
-    height: 750px;
+    height: 710px;
     padding-top: 40px;
     padding-left: 20px;
-   
+    margin: 60px auto; 
  }
 
  
@@ -26,8 +26,24 @@ body {
     padding-bottom: 180px;
     border-radius: 30px;
     margin: 0px auto;
+    -webkit-box-shadow: 6px 9px 53px -10px rgba(31,184,159,1);
+    -moz-box-shadow: 6px 9px 53px -10px rgba(31,184,159,1);
+    box-shadow: 6px 9px 53px -10px rgba(31,184,159,1);
     
  }
+ .prev-next {
+    text-align: center;
+ }
+
+ .upcoming {
+    
+    font-size: 1.8em;
+ }
+ 
+.previous {
+    
+    font-size: 1.5em;
+}
 
 #footer {
     padding: 0 10px;
