@@ -15,9 +15,7 @@ body {
     height: 750px;
     padding-top: 40px;
     padding-left: 20px;
-    -webkit-box-shadow: inset 10px 10px 300px -24px rgba(101,49,191,1);
-    -moz-box-shadow: inset 10px 10px 300px -24px rgba(101,49,191,1);
-    box-shadow: inset 10px 10px 300px -24px rgba(101,49,191,1);    
+   
  }
 
  
@@ -28,7 +26,20 @@ body {
     padding-bottom: 180px;
     border-radius: 30px;
     margin: 0px auto;
-    -webkit-box-shadow: 0px 2px 34px 0px rgba(250,225,250,.9);
-    -moz-box-shadow: 0px 2px 34px 0px rgba(250,225,250,.9);
-    box-shadow: 0px 2px 34px 0px rgba(250,225,250,.9);
+    
  }
+
+#footer {
+    padding: 0 10px;
+    background:#EEE;
+    bottom:0px;
+    right:0px;
+    left:0px;
+    position:fixed;
+    box-shadow: 0px 0px 8px 0px #000000;
+
+    }
+    #footer p {
+    margin: 0;
+    padding: 10px 0;
+}
