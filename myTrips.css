@@ -9,7 +9,7 @@ body {
  }
 
  .font {
-    background: #fff;
+    background: lightskyblue;
     float: left;
     width: 65%;
     height: 710px;
@@ -18,31 +18,36 @@ body {
     margin: 60px auto; 
  }
 
- .header {
-    text-align: center;
- }
-
  .container {
     background:#fff;
     width: 35%;
     height: 65%;
     padding-bottom: 180px;
-    border-radius: 30px;
     margin: 0px auto;
     -webkit-box-shadow: 6px 9px 53px -10px rgba(31,184,159,1);
     -moz-box-shadow: 6px 9px 53px -10px rgba(31,184,159,1);
     box-shadow: 6px 9px 53px -10px rgba(31,184,159,1);
  }
+.header {
+    text-align: center;
+ }
+
+ h1 {
+     font-size: 2.2em;
+ }
+
  article {
     display: inline-block;
  }
 
 .left {
     float: left;
+    padding: 10px;
 }
 
 .right {
     float: right;
+    margin-left: 40px;
 }
 
  .prev-next {
