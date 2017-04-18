@@ -3,6 +3,8 @@ body {
     background: black;
     font-family: 'Times New Roman', Times, serif;
     width: 100%;  
+    padding-left: 300px;
+    padding-top: 40px;
     display: inline-block;
     margin: 0px auto;
  }
@@ -28,7 +30,7 @@ body {
     box-shadow: 10px 10px 60px -23px rgba(67,75,87,1);
  }
   
-.header {
+ .header {
     text-align: center;
     margin: 0px 25px; 
     
@@ -84,5 +86,3 @@ body {
 footer {
 
 }
-
- 
