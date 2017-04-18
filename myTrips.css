@@ -9,13 +9,13 @@ body {
  }
 
  .font {
-    background: skyblue;
+    background: lightblue;
     float: left;
     width: 65%;
     height: 700px;
     padding-top: 40px;
     padding-left: 20px;
-    margin: 70px auto; 
+    margin: 60px auto; 
  }
 
  .container {
@@ -39,6 +39,7 @@ body {
  h1 {
      padding-top: 10px;
      font-size: 1.5em;
+     color: lightgray;
  }
 
  .content {
@@ -65,8 +66,7 @@ body {
 .previous {  
     font-size: 1.5em;
 }
-
-
+ 
  article {
     display: inline-block;
  }
