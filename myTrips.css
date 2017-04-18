@@ -12,17 +12,17 @@ body {
     background: skyblue;
     float: left;
     width: 65%;
-    height: 710px;
+    height: 700px;
     padding-top: 40px;
     padding-left: 20px;
-    margin: 60px auto; 
+    margin: 70px auto; 
  }
 
  .container {
     background:#fff;
     width: 35%;
     height: 65%;
-    padding-bottom: 180px;
+    padding-bottom: 155px;
     margin: auto;
     -webkit-box-shadow: 10px 10px 60px -23px rgba(67,75,87,1);
     -moz-box-shadow: 10px 10px 60px -23px rgba(67,75,87,1);
