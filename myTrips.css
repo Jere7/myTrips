@@ -23,44 +23,47 @@ body {
     width: 35%;
     height: 65%;
     padding-bottom: 180px;
-    margin: 0px auto;
-    -webkit-box-shadow: 6px 9px 53px -10px rgba(31,184,159,1);
-    -moz-box-shadow: 6px 9px 53px -10px rgba(31,184,159,1);
-    box-shadow: 6px 9px 53px -10px rgba(31,184,159,1);
+    margin: auto;
+    
  }
   
 .header {
     text-align: center;
+    margin: 0px 25px; 
+    
+    
  }
 
  h1 {
      padding-top: 10px;
-     margin: 15px;
      font-size: 1.5em;
  }
 
  .content {
-     padding: 12px 25px 20px 25px;
-     background-color: darkgrey;
- }
+     padding: 15px 25px;
+     background-color: lightgrey;
+     
+   
+   }
  .prev-next {
     text-align: center;
-    background-color: ghostwhite;
-    padding: 10px 0px;  
+    background-color: white;
+    padding: 5px 0px;  
     margin-top: 10px; 
+   
+ }
+ span {
+     letter-spacing: 2px;
  }
 
  .upcoming {
-    font-size: 1.8em;
+    font-size: 1.5em;
  }
  
 .previous {  
     font-size: 1.5em;
 }
 
-.menu-article {
-    margin:  10px auto;
-}
 
  article {
     display: inline-block;
