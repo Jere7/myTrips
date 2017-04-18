@@ -9,7 +9,7 @@ body {
  }
 
  .font {
-    background: lightsteelblue;
+    background: skyblue;
     float: left;
     width: 65%;
     height: 710px;
@@ -24,7 +24,9 @@ body {
     height: 65%;
     padding-bottom: 180px;
     margin: auto;
-    
+    -webkit-box-shadow: 10px 10px 60px -23px rgba(67,75,87,1);
+    -moz-box-shadow: 10px 10px 60px -23px rgba(67,75,87,1);
+    box-shadow: 10px 10px 60px -23px rgba(67,75,87,1);
  }
   
 .header {
