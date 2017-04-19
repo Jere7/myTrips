@@ -26,9 +26,9 @@ body {
     height: 91%;
     vertical-align: middle;   
     background-color: #fff; 
-    -webkit-box-shadow: 10px 11px 31px -1px rgba(127,178,189,1);
-    -moz-box-shadow: 10px 11px 31px -1px rgba(127,178,189,1);
-    box-shadow: 10px 11px 31px -1px rgba(127,178,189,1); 
+    -webkit-box-shadow: 25px 28px 69px 0px rgba(85,210,235,1);
+    -moz-box-shadow: 25px 28px 69px 0px rgba(85,210,235,1);
+    box-shadow: 25px 28px 69px 0px rgba(85,210,235,1); 
 }
 
 .main {
@@ -52,7 +52,10 @@ nav {
     margin: auto;
     background: lightblue;
 }
-         
+.main {
+    vertical-align: center; 
+}
+
  .up-prev {
      padding: 15px 0px;
      display: block;
@@ -74,10 +77,6 @@ a {
 }
 
         /*some css to images*/
-
- .images {
-      display: block;
-}
 
 img {
     padding: 0px;
