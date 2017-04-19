@@ -16,7 +16,7 @@ body {
 .font {
     display: table; 
     margin: auto;
-    padding: 0px 0px; 
+    padding: 20px 0px; 
 }
 
             /*css container style*/
@@ -38,10 +38,11 @@ h1 {
     padding: 10px;
     text-align: center;
     background: lightblue;
-    color: brown;
+    color: seashell;
 }
 .content {
     padding: 0px;
+    
 }
 
 .images {
