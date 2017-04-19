@@ -8,16 +8,16 @@ html {
 }
 
 body {
-    background: lightskyblue;
+    background: lightskyblue;    
     height: 90%;
     margin: auto;    
 }
 
 .font {
-    height: 70%;
+    
     display: table; 
-    margin: 0 auto;
-    padding: 0px 0px; 
+    margin: auto;
+    padding: 60px 0px; 
 }
 
             /*css container style*/
@@ -26,9 +26,7 @@ body {
     height: 91%;
     vertical-align: middle;   
     background-color: #fff; 
-    -webkit-box-shadow: 25px 28px 69px 0px rgba(85,210,235,1);
-    -moz-box-shadow: 25px 28px 69px 0px rgba(85,210,235,1);
-    box-shadow: 25px 28px 69px 0px rgba(85,210,235,1); 
+
 }
 
 
@@ -89,14 +87,16 @@ a {
 }
 
         /*some css to images*/
+.images {
+    display: inline-block;
+}
 
 img {
     padding: 0px;
     margin: 0px;    
 }  
 
-p {  
-    display: block;;  
+p {      
     padding: 0px;
     margin: 0px; 
 }
