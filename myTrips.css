@@ -25,7 +25,8 @@ body {
     height: 91%;
     vertical-align: middle;   
     background-color: #fff; 
-
+    padding: 0px; 
+    margin: 0px;
 }
 
             /*css h1 style*/
@@ -36,14 +37,23 @@ h1 {
     background: lightblue;
     color: darkgrey;
 }
-
-.main {
-   width: 400px;
-   height: 550px;
-   display: inline-block;
-   margin: auto;
+.content {
+    padding: 0px;
 }
 
+.images {
+    padding: 0px;
+    margin: auto;
+ 
+}
+.main {
+   width: 400px;
+   height: 650px;
+   display: inline-block;
+   margin: auto;
+   padding: 20px;
+   
+}
         /*css nav style*/
 
 nav {
@@ -51,7 +61,6 @@ nav {
     margin: auto;
     background: lightblue;
 }
-
 
  .up-prev {
      padding: 15px 0px;
@@ -85,10 +94,6 @@ a {
 }
 
         /*some css to images*/
-.images {
-    margin: auto;
-}
-
 img {
     padding: 5px 20px;
     margin: 0px;    
@@ -103,7 +108,13 @@ p {
 }
         /*css footer style*/
   footer {
-      letter-spacing: 5px;
-      padding: 0px 15px 0px 40px;
+      
+      padding: 0px;
       background: lightblue;
+      width: 100%;
+}
+i {
+    padding-left: 25px;
+
+    
 }
