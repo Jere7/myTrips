@@ -4,7 +4,7 @@ html {
     padding: 50px 280px;
     margin: auto;
     background: black;
-    font-family:  Calibri, 'Trebuchet MS', sans-serif;    
+    font-family: Calibri, 'Trebuchet MS', sans-serif;    
 }
 
 body {
@@ -38,7 +38,7 @@ h1 {
     padding: 10px;
     text-align: center;
     background: lightblue;
-    color: darkgrey;
+    color: brown;
 }
 .content {
     padding: 0px;
@@ -50,8 +50,8 @@ h1 {
  
 }
 .main {
-   width: 400px;
-   height: 550px;
+   width: 370px;
+   height: 500px;
    display: inline-block;
    margin: auto;
    padding: 20px;
@@ -63,6 +63,9 @@ nav {
     display: block; 
     margin: auto;
     background: lightblue;
+}
+hr {
+    margin-top: 5px;
 }
 
  .up-prev {
