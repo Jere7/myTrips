@@ -31,10 +31,6 @@ body {
     box-shadow: 25px 28px 69px 0px rgba(85,210,235,1); 
 }
 
-.main {
-   padding: 0px;
-    margin: 20px;
-}
 
             /*css h1 style*/
 
@@ -45,6 +41,13 @@ h1 {
     color: darkgrey;
 }
 
+.main {
+   width: 300px;
+   height: 550px;
+   margin: auto;
+   padding: 10px;
+}
+
         /*css nav style*/
 
 nav {
@@ -52,15 +55,24 @@ nav {
     margin: auto;
     background: lightblue;
 }
-.main {
-    vertical-align: center; 
-}
+
 
  .up-prev {
      padding: 15px 0px;
      display: block;
      margin: auto;
-     text-align: center; 
+     text-align: center;
+     
+}
+.up {
+    font-size: 20px;
+    border-right: 1px solid grey;
+    padding-right: 10px;
+}
+
+.prev {
+    font-size: 20px;
+    padding-left: 10px;
 }
 
 a {
@@ -83,7 +95,8 @@ img {
     margin: 0px;    
 }  
 
-p {    
+p {  
+    display: block;;  
     padding: 0px;
     margin: 0px; 
 }
