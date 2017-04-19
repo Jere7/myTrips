@@ -14,10 +14,9 @@ body {
 }
 
 .font {
-    
     display: table; 
     margin: auto;
-    padding: 60px 0px; 
+    padding: 0px 0px; 
 }
 
             /*css container style*/
@@ -29,7 +28,6 @@ body {
 
 }
 
-
             /*css h1 style*/
 
 h1 {
@@ -40,10 +38,10 @@ h1 {
 }
 
 .main {
-   width: 300px;
+   width: 400px;
    height: 550px;
+   display: inline-block;
    margin: auto;
-   padding: 10px;
 }
 
         /*css nav style*/
@@ -88,21 +86,24 @@ a {
 
         /*some css to images*/
 .images {
-    display: inline-block;
+    margin: auto;
 }
 
 img {
-    padding: 0px;
+    padding: 5px 20px;
     margin: 0px;    
 }  
 
 p {      
     padding: 0px;
     margin: 0px; 
+    position: relative;
+    right: -150px;
+    bottom: 80px;
 }
         /*css footer style*/
   footer {
-      letter-spacing: 10px;
+      letter-spacing: 5px;
       padding: 0px 15px 0px 40px;
       background: lightblue;
 }
