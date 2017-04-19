@@ -1,6 +1,7 @@
 html {
-    padding: 100px 300px;
-    background-color: black;
+    margin: 100%;
+    height: 100%;
+    padding: 50px 280px;
     margin: auto;
     background: black;
     font-family: Times, serif;
@@ -9,22 +10,55 @@ html {
 }
 body {
     background: lightskyblue;
-    display: block;
+    height: 90%;
+    margin: auto;
     
 }
 .font {
+    height: 70%;
     display: table; 
     margin: 0 auto;
-    padding: 50px 0px; 
+    padding: 0px 0px; 
 
 }
 
 .container {  
-    height: 100%;
-    display: table-cell;   
+    height: 91%;
     vertical-align: middle;   
-    background-color: #fff;    
+    background-color: darkgrey; 
     -webkit-box-shadow: 10px 11px 31px -1px rgba(127,178,189,1);
     -moz-box-shadow: 10px 11px 31px -1px rgba(127,178,189,1);
     box-shadow: 10px 11px 31px -1px rgba(127,178,189,1); 
 }
+.main {
+    padding: 20px;
+}
+
+h1 {
+    padding: 10px;
+    text-align: center;
+    background: aliceblue;
+}
+
+nav {
+    display: block; 
+    margin: auto;
+    padding-left: 75px; 
+    background: aliceblue;
+    
+
+}
+ .up-prev {
+     padding: 15px 0px;
+     display: block;
+     margin: auto;
+     text-align: center; 
+ }
+
+ a:hover {
+      color: indianred;
+  }
+
+  footer {
+      background: aliceblue;
+  }
