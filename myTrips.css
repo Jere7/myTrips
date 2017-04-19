@@ -27,6 +27,9 @@ body {
     background-color: #fff; 
     padding: 0px; 
     margin: 0px;
+    -webkit-box-shadow: 35px 35px 69px 0px rgba(40,83,92,1);
+    -moz-box-shadow: 35px 35px 69px 0px rgba(40,83,92,1);
+    box-shadow: 35px 35px 69px 0px rgba(40,83,92,1);
 }
 
             /*css h1 style*/
@@ -48,7 +51,7 @@ h1 {
 }
 .main {
    width: 400px;
-   height: 650px;
+   height: 550px;
    display: inline-block;
    margin: auto;
    padding: 20px;
@@ -111,7 +114,7 @@ p {
       
       padding: 0px;
       background: lightblue;
-      width: 100%;
+      
 }
 i {
     padding-left: 25px;
