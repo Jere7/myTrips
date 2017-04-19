@@ -4,7 +4,7 @@ html {
     padding: 50px 280px;
     margin: auto;
     background: black;
-    font-family: Times, serif;
+    font-family:  Calibri, 'Trebuchet MS', sans-serif;
     
     
 }
@@ -25,27 +25,26 @@ body {
 .container {  
     height: 91%;
     vertical-align: middle;   
-    background-color: darkgrey; 
+    background-color: #fff; 
     -webkit-box-shadow: 10px 11px 31px -1px rgba(127,178,189,1);
     -moz-box-shadow: 10px 11px 31px -1px rgba(127,178,189,1);
     box-shadow: 10px 11px 31px -1px rgba(127,178,189,1); 
 }
 .main {
-    padding: 20px;
+   padding: 0px;
+    margin: 20px;
 }
 
 h1 {
     padding: 10px;
     text-align: center;
-    background: aliceblue;
+    background: lightblue;
 }
 
 nav {
     display: block; 
     margin: auto;
-    padding-left: 75px; 
-    background: aliceblue;
-    
+    background: lightblue;
 
 }
  .up-prev {
@@ -54,11 +53,37 @@ nav {
      margin: auto;
      text-align: center; 
  }
+a {
 
+    letter-spacing: 2px;
+    text-decoration: none;
+}
+    
  a:hover {
-      color: indianred;
+      color: cornflowerblue;
   }
 
+ .images {
+      display: block;
+  }
+
+img {
+    
+    
+    padding: 0px;
+    margin: 0px;
+    
+        
+}  
+p {
+    
+    padding: 0px;
+    margin: 0px;
+    
+}
+
   footer {
-      background: aliceblue;
+      letter-spacing: 10px;
+      padding: 0px 15px 0px 40px;
+      background: lightblue;
   }
