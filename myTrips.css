@@ -4,23 +4,23 @@ html {
     padding: 50px 280px;
     margin: auto;
     background: black;
-    font-family:  Calibri, 'Trebuchet MS', sans-serif;
-    
-    
+    font-family:  Calibri, 'Trebuchet MS', sans-serif;    
 }
+
 body {
     background: lightskyblue;
     height: 90%;
-    margin: auto;
-    
+    margin: auto;    
 }
+
 .font {
     height: 70%;
     display: table; 
     margin: 0 auto;
     padding: 0px 0px; 
-
 }
+
+            /*css container style*/
 
 .container {  
     height: 91%;
@@ -30,60 +30,67 @@ body {
     -moz-box-shadow: 10px 11px 31px -1px rgba(127,178,189,1);
     box-shadow: 10px 11px 31px -1px rgba(127,178,189,1); 
 }
+
 .main {
    padding: 0px;
     margin: 20px;
 }
 
+            /*css h1 style*/
+
 h1 {
     padding: 10px;
     text-align: center;
     background: lightblue;
+    color: darkgrey;
 }
+
+        /*css nav style*/
 
 nav {
     display: block; 
     margin: auto;
     background: lightblue;
-
 }
+         
  .up-prev {
      padding: 15px 0px;
      display: block;
      margin: auto;
      text-align: center; 
- }
-a {
+}
 
+a {
     letter-spacing: 2px;
     text-decoration: none;
 }
     
  a:hover {
-      color: cornflowerblue;
-  }
+    color: cornflowerblue;
+}
+
+ a:active {
+    color:
+}
+
+        /*some css to images*/
 
  .images {
       display: block;
-  }
-
-img {
-    
-    
-    padding: 0px;
-    margin: 0px;
-    
-        
-}  
-p {
-    
-    padding: 0px;
-    margin: 0px;
-    
 }
 
+img {
+    padding: 0px;
+    margin: 0px;    
+}  
+
+p {    
+    padding: 0px;
+    margin: 0px; 
+}
+        /*css footer style*/
   footer {
       letter-spacing: 10px;
       padding: 0px 15px 0px 40px;
       background: lightblue;
-  }
+}
