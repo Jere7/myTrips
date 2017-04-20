@@ -11,6 +11,7 @@ body {
     background: lightcyan;    
     height: 90%;
     margin: auto;    
+     border-radius: 30px;
 }
 
 .font {
@@ -27,6 +28,7 @@ body {
     background-color: #fff; 
     padding: 0px; 
     margin: 0px;
+    border-radius: 30px;
     -webkit-box-shadow: 35px 35px 69px -27px rgba(140,83,92,1);
     -moz-box-shadow: 35px 35px 69px -27px rgba(140,83,92,1);
     box-shadow: 35px 35px 69px -27px rgba(140,83,92,1);
@@ -39,6 +41,7 @@ h1 {
     text-align: center;
     background: lavenderblush;
     color: grey;
+    border-radius: 30px;
 }
 .content {
     padding: 0px;
@@ -64,6 +67,7 @@ nav {
     display: block; 
     margin: auto;
     background: lightgrey;
+    border-radius: 30px; 
     
 }
 hr {
@@ -122,6 +126,7 @@ p {
       
       padding: 0px 15px;
       background: lavenderblush;
+       border-radius: 30px;
       
 }
 i {
