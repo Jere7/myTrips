@@ -8,7 +8,7 @@ html {
 }
 
 body { 
-    background: lavender;    
+    background: lightcyan;    
     height: 90%;
     margin: auto;    
 }
@@ -37,8 +37,8 @@ body {
 h1 {
     padding: 10px;
     text-align: center;
-    background: lightgrey;
-    color: seashell;
+    background: lavenderblush;
+    color: grey;
 }
 .content {
     padding: 0px;
@@ -63,7 +63,8 @@ h1 {
 nav {
     display: block; 
     margin: auto;
-    background: lightgrey;
+    background: lavender;
+    
 }
 hr {
     margin-top: 5px;
@@ -88,7 +89,7 @@ hr {
 }
 
 a {
-    color: whitesmoke;
+    color: grey;
     letter-spacing: 2px;
     text-decoration: none;
 }
@@ -125,12 +126,12 @@ ul,li {
         /*css footer style*/
   footer {
       
-      padding: 0px;
-      background: lightcyan;
+      padding: 0px 15px;
+      background: lavenderblush;
       
 }
 i {
-    padding-left: 25px;
+    padding-left: 15px;
 
     
 }
