@@ -83,7 +83,7 @@ hr {
 }
 .up {
     font-size: 20px;
-    border-right:s 1px solid grey;
+    border-right: 1px solid #fff;
     padding-right: 10px;
 }
 
@@ -106,10 +106,11 @@ a {
     color:
 }
 
-        /*some css to images*/
+     /*some css to images*/
 img {
     padding: 5px 20px;
-    margin: 0px;    
+    margin: 0px;  
+      
 }  
 
 p {      
